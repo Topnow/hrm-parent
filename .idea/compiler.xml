@@ -8,9 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hrm-basic-util" />
         <module name="hrm-basic-generatro" />
+        <module name="hrm-config-service" />
+        <module name="hrm-course-interface" />
         <module name="hrm-system-interface" />
         <module name="hrm-zuul-gateway" />
         <module name="hrm-eureka-server" />
+        <module name="itsource-hrm-spring-boot-starter" />
+        <module name="hrm-course-service" />
         <module name="hrm-system-service" />
       </profile>
     </annotationProcessing>

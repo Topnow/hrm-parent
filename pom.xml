@@ -12,6 +12,7 @@
         <module>hrm-basic-parent</module>
         <module>hrm-supports-parent</module>
         <module>hrm-system-parent</module>
+        <module>hrm-course-parent</module>
     </modules>
 
     <!--版本控制-->
@@ -42,6 +43,12 @@
                 <version>Finchley.SR4</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.16</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

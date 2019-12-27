@@ -18,8 +18,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableTransactionManagement
 @MapperScan("cn.itsource.hrm.mapper")
 @EnableSwagger2  //开启swagger
-public class SystemServiceApplication {
+public class CourseServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SystemServiceApplication.class, args);
+        SpringApplication.run(CourseServiceApplication.class, args);
     }
 }
